@@ -1,0 +1,21 @@
+AutoKomandiruoèiø ásakymai script'as
+====================================
+Python 3.5
+Dependencies python-docx, openpyxl
+
+Scriptas randa:
+PGA MGA EGA VGA EXP
+
+izol past d.v p.v direkt vairuot vert 
+"Ðvedija", "Prancûzija", "Belgija", "Ðveicarija", "Vokietija", "Latvija", "Ryga", "Lenkija", "Estija", "Nyderlandai", "Suomija"
+
+NERANDA:
+["ADM","GTS"]
+["buh.","pavad.","sauga","techn.", "vad.", "vadov.", "vadyb."]
+
+Naudojimo sàlygos:
+1) Ásakymø failas turi buti pervadintas á "isakymai.xlsx" (be kabuèiø, ir pas tave nereikia .xlsx galunës)
+2) Seni scripto sukurti failai ir folderiai bus perraðyti já vël paleidus, bet geriau juos iðtrinti nes gali likti seni failai.
+3) Excelio faile stulpeliai negali keistis, bet eiluèiø gali bûti neribotas skaicius
+4) Paleidziant script'à skaitomi duomenys nuo 8 eilutes, iki tos eilutes kuri ávesta
+5) Jeigu eilute tuscia, ji bus tiesiog praleista, tad galima ivesti belekiek dideli skaiciu pvz 999, tik tas gali uztrukti nuskaitant
